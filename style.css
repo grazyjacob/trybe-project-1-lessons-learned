@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;1,400&family=Raleway:wght@100&display=swap');
+
 body {
     background-color:rgb(253, 251, 251); 
 }
@@ -8,54 +10,76 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-    
+    background-color: black;
+    color: pink;
+    font-family: 'Raleway', sans-serif;
 }
 
-#aprensentacao {
-    top: 50px;
-    border: 5px solid red;
-}
 .pt-1-apresentacao {
-    border: 5px solid blue;
-    margin-top: 100px;
-    margin-right: 20%;
-    margin-left: 20%;
-    display: inline-block;
+    margin-right: 80%;
+    margin-left: 0%;
+    line-height: 23px;
+
+
 }
 .pt-2-apresentacao-title {
+    margin-top: 50px;
     text-align: center;
-    border:5px solid blue;
 }
+
 
 .pt-2-apresentacao {
-    margin-right: 30%;
-    margin-left: 30%;
-}
-#aprendidas {
-    border: 5px solid red;
-    display: flex;      
-}
-#licoes {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
+margin-right: 0%;
+margin-top: 50px;
 }
 
 
-#quero-aprender {
-    border: 5px solid pink;
-    display: flex;
-  
-   
+#licoes_a_aprender {
+
+}
+#titulo-aprender {
+
+}
+
+#licoes-aprendidas-title{
+
     
 }
 
+#licoes_aprendidas {
+ 
+
+}
+#aprendidas {
+    float: left;
+    margin-left:2%;
+}
+#quero-aprender{
+margin-left: 60%;
+margin-right: 15%;
+margin-top: 25px;
+
+}
+
+h2 {
+    color: pink;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(139, 46, 77);
+    text-shadow: 2px rgb(218, 162, 171);
+    
+}
+img {
+    width: 250px;
+    height: auto;
+    float: left;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    }
+
+    footer {
+        font-size: 50%;
     }
