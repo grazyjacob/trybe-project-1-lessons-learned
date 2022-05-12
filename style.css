@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;1,400&family=Raleway:wght@100&display=swap');
 
 body {
-    background-color:rgb(253, 251, 251); 
+background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    top: 0%;
-    position: fixed;
-    background-color: rgb(139, 46, 77);
-    color: pink;
-    font-family: 'Raleway', sans-serif;
-    height: 78px;
-    
+top: 0%;
+position: fixed;
+background-color: rgb(139, 46, 77);
+color: pink;
+font-family: 'Raleway', 'sans-serif';
+height: 78px;
 }
 
-.links{
+.links {
     float: right;
     margin-left: 600px;
     margin-right: 5px;
@@ -39,7 +38,7 @@ margin-right: 0%;
 margin-top: 50px;
 }
 
-
+/*
 #licoes_a_aprender {}
 #titulo-aprender {
 }
@@ -47,20 +46,20 @@ margin-top: 50px;
 #licoes-aprendidas-title{
 }
 
-#licoes_aprendidas {}
+#licoes_aprendidas {}*/
 #aprendidas {
     float: left;
-    margin-left:2%;
+    margin-left: 2%;
 }
 
-#quero-aprender{
+#quero-aprender {
 margin-left: 60%;
 margin-right: 15%;
 margin-top: 25px;}
 
 h2 {
     color: pink;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'sans-serif';
     background-color: rgb(139, 46, 77);
     text-shadow: 2px rgb(218, 162, 171);}
 img {
@@ -68,8 +67,8 @@ img {
     height: auto;
     float: left;
 }
-        #aprendizado {
-        }
+        /*#aprendizado {
+        }*/
     #aprendizado-title {
         margin-left: 2%;
         margin-right: 25%;
@@ -82,7 +81,7 @@ img {
             float: right;
         }
 
-        #passagem-importante
+       /* #passagem-importante */
     .titulo-passagem-importante {
         margin-right: 0%;
 
@@ -90,7 +89,6 @@ img {
         .paragrafo-passagem-importante {
             margin-left: 55%;
             margin-right: 2%;
-            
         }
 
 
