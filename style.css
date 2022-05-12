@@ -9,7 +9,7 @@ top: 0%;
 position: fixed;
 background-color: rgb(139, 46, 77);
 color: pink;
-font-family: 'Raleway', 'sans-serif';
+font-family: 'Raleway';
 height: 78px;
 }
 
@@ -38,15 +38,11 @@ margin-right: 0%;
 margin-top: 50px;
 }
 
-/*
-#licoes_a_aprender {}
-#titulo-aprender {
-}
+/* #licoes_a_aprender {}
+#titulo-aprender {}
+#licoes-aprendidas-title{}
+#licoes_aprendidas {} */
 
-#licoes-aprendidas-title{
-}
-
-#licoes_aprendidas {}*/
 #aprendidas {
     float: left;
     margin-left: 2%;
@@ -59,7 +55,7 @@ margin-top: 25px;}
 
 h2 {
     color: pink;
-    font-family: 'Raleway', 'sans-serif';
+    font-family: 'Raleway';
     background-color: rgb(139, 46, 77);
     text-shadow: 2px rgb(218, 162, 171);}
 img {
@@ -67,8 +63,8 @@ img {
     height: auto;
     float: left;
 }
-        /*#aprendizado {
-        }*/
+    /* #aprendizado {} */
+
     #aprendizado-title {
         margin-left: 2%;
         margin-right: 25%;
@@ -82,6 +78,7 @@ img {
         }
 
        /* #passagem-importante */
+
     .titulo-passagem-importante {
         margin-right: 0%;
 
@@ -90,8 +87,6 @@ img {
             margin-left: 55%;
             margin-right: 2%;
         }
-
-
 * {
     margin: 0;
     padding: 0;
